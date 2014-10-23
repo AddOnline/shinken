@@ -48,6 +48,7 @@ class Discoveryrule(MatchingItem):
 
     running_properties = {
         'configuration_errors': ListProp(default=[]),
+        'configuration_warnings': ListProp(default=[]),
         }
 
     macros = {}
